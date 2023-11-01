@@ -22,9 +22,10 @@ export const CharacterDetailsComponent: React.FunctionComponent<Props> = (props)
         <div className={classes.root}>
           <div className={classes.img}>
           <CardMedia
-            image={character.image}
+            image={character?.image}
             title={character.name}
             style={{ height: 0, paddingTop: '56.25%' }}
+            component='div'
           />
         </div>
         <div className={classes.episode}>

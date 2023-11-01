@@ -5,7 +5,8 @@ const validationSchema: ValidationSchema = {
   field: {
     name: [Validators.required],
     species: [Validators.required],
-    location: [Validators.required]
+    location: [Validators.required],
+    bestSentences:[]
   },
 };
 

@@ -24,11 +24,13 @@ export const CharacterCollectionComponent: React.FunctionComponent<Props> = (
       </Button>
 
       <ul className={classes.list}>
-        {characterCollection?.length>0 && characterCollection.map((character) => (
+        {characterCollection?.length>0 && characterCollection.map((character) =>{
+          if (!character.bestSentences ) character.bestSentences=''; 
+          return (
           <li key={character.id} > 
             <CharacterCard character={character} onEdit={onEdit} onDelete={onDelete} onDetails={ onDetails}/>
           </li>
-        ))}
+        )})}
       </ul>
     </div>
   );
