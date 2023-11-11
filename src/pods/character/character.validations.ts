@@ -6,7 +6,7 @@ const validationSchema: ValidationSchema = {
     name: [Validators.required],
     species: [Validators.required],
     status: [Validators.required],
-    bestSentences:[]
+    lastSentence:[]
   },
 };
 

@@ -7,3 +7,4 @@ export const CharacterScene = () => (
     <CharacterContainer />
   </AppLayout>
 );
+     

@@ -5,3 +5,8 @@ export const content = css`
   flex-direction: column;
   justify-content: center;
 `;
+export const buttonDialog= css`
+  display:flex;
+  justify-content: end;
+  width:100&;
+`;

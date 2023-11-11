@@ -2,9 +2,9 @@
   "character": [
     {
       "id": 1,
-      "name": "Rick Sanchez",
-      "status": "Alive",
-      "species": "Human",
+      "name": "Rick Sanchez1",
+      "status": "Alive1",
+      "species": "Human1",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -71,7 +71,10 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/1",
       "created": "2017-11-04T18:48:46.250Z",
-      "bestSentences": "HolaaaaaXXXttt"
+      "lastSentence": "",
+      "bestSentences": [
+        ""
+      ]
     },
     {
       "id": 3,
@@ -134,8 +137,7 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/3",
-      "created": "2017-11-04T19:09:56.428Z",
-      "bestSentences": "xxxxxxxx111"
+      "created": "2017-11-04T19:09:56.428Z"
     },
     {
       "id": 4,

@@ -27,11 +27,10 @@ export const CharacterDetailsComponent: React.FunctionComponent<Props> = (props)
             style={{ height: 0, paddingTop: '56.25%' }}
             component='div'
           />
-        </div>
-        <div className={classes.episode}>
-          <Episode episodeList={character.episode} />
-        </div>
-
+          </div>
+          <div className={classes.episode}>
+            <Episode episodeList={character.episode} />
+          </div>
         </div>
        
       </CardContent>

@@ -25,7 +25,7 @@ export const CharacterCollectionComponent: React.FunctionComponent<Props> = (
 
       <ul className={classes.list}>
         {characterCollection?.length>0 && characterCollection.map((character) =>{
-          if (!character.bestSentences ) character.bestSentences=''; 
+          if (!character.lastSentence ) character.lastSentence=''; 
           return (
           <li key={character.id} > 
             <CharacterCard character={character} onEdit={onEdit} onDelete={onDelete} onDetails={ onDetails}/>

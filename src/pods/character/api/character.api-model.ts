@@ -27,5 +27,6 @@ export interface Character{
   episode: string[],
   url: string,
   created: Date,
-  bestSentences?: string
+  lastSentence?: string,
+  bestSentences?: string[]
 }
