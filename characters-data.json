@@ -70,11 +70,7 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/1",
-      "created": "2017-11-04T18:48:46.250Z",
-      "lastSentence": "",
-      "bestSentences": [
-        ""
-      ]
+      "created": "2017-11-04T18:48:46.250Z"
     },
     {
       "id": 3,
@@ -137,7 +133,12 @@
         "https://rickandmortyapi.com/api/episode/51"
       ],
       "url": "https://rickandmortyapi.com/api/character/3",
-      "created": "2017-11-04T19:09:56.428Z"
+      "created": "2017-11-04T19:09:56.428Z",
+      "lastSentence": "frase 2",
+      "bestSentences": [
+        "frase 1",
+        "frase 2"
+      ]
     },
     {
       "id": 4,
