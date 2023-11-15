@@ -7,5 +7,5 @@ export const root = css`
 `;
 
 export const form = css`
-  width:40%;
+  width: 40%;
 `;
